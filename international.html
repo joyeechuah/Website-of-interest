@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.Title{
+    text-align: center;
+    width: 100%;
+    color: azure;
+    margin: 0;
+    font-size: xx-large;
+}
+
+.Description{
+    text-align: center;
+    color: azure;
+    margin: 0;
+    font-size: x-large;
+    padding: 5px;
+}
+
+.Header{
+    background-image: url(https://i.postimg.cc/pdFvFCDC/firebrick-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color:firebrick;
+    border: 5px solid maroon;
+}
+
+nav a{
+    color: beige;
+}
+
+.big_container{
+    margin: 0;
+    width: 100%;
+    background-color: beige;
+}
+.contact{
+    background-color: beige;
+    margin: 0;
+}
+
+.email{
+    background-color: beige;
+    margin: 0;
+}
+
+.address{
+    background-color: beige;
+    margin: 0;
+}
+
+.copyright{
+    background-color: maroon;
+    color: white;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+h1, p{
+    margin: 0;
+    color: white;
+}
+
+hr{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/SxzQ6m4z/360-F-338486227-q-Qit-Uvh3n-ILq-Yiu-QOUGxdfindo-NMbtp-H.jpg);
+
+}
+
+.filter{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    color: white;
+    background-image: ;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    
+}
+
+.product-description{
+    width: 250px;
+}
+
+.Travel-Destination{
+    padding-bottom: 15px;
+    display: flex;
+}
+
+img{
+    border-radius: 16px;
+    width: 300px;
+    height: 250px;
+    border: 2px solid darkred;
+}
+
+.button{
+    color: white;
+    background-color: salmon;
+}
+
+.footer_h1{
+    color: black;
+}
+
+.footer_p{
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <header class="Header">
+    <h1 class="Title">Joy Travels</h1>
+    <p class="Description">Travel with no hassle with our intuitive travel platform.</p>
+    <nav>
+        <a href="Joy_Travels.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="international.html">International</a>
+        <a href="domestic.html">Domestic</a>
+        <a href="contact_us.html">Contact Us</a>
+    </nav>
+    </header>
+
+    <div class="container">
+        <div class="filter">
+            <h1 class="International Tours">International Tours</h1>
+            <h2>Region</h2>
+            <div class="category">
+            <input type="checkbox">Africa<br>
+            </div>
+            <div class="category">
+            <input type="checkbox">Asia Pacific<br>
+            </div>
+            <div class="category">
+            <input type="checkbox">Europe<br>
+            </div>
+            <div class="category">
+            <input type="checkbox">Middle East<br>
+            </div>
+            <div class="category">
+            <input type="checkbox">North America<br>
+            </div>
+            <div class="category">
+            <input type="checkbox">Oceania<br>
+            </div>
+            <div class="category">
+            <input type="checkbox">South America<br>
+            </div>
+
+            <h2>Price Range</h2>
+            <div class="category">
+            <input type="checkbox">$$$<br>
+            </div>
+            <div class="category">
+            <input type="checkbox">$$$$<br>
+            </div>
+            <div class="category">
+            <input type="checkbox">$$$$$<br>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="Travel-Destination">
+                <img src="https://i.postimg.cc/RVMLTGJJ/beijing.jpg" alt="Beijing">
+                <div class="product-description">
+                <h1>Beijing, China</h1>
+                <h1>$4999</h1>
+                <p>Beijing is the capital of China. It is a massive city that perfectly blends thousands of years of history with modern, high-tech life. It is the political, cultural, and educational heart of the country.</p>
+                <Button>Enquire Now</Button>
+                </div>
+            </div>
+            <div class="Travel-Destination">
+                <img src="https://i.postimg.cc/wjR2tMsS/giza-pyramids-cairo-egypt-with-palm.jpg" alt="Cairo">
+                <div class="product-description">
+                <h1>Cairo, Egypt</h1>
+                <h1>$12,999</h1>
+                <p>Cairo is the capital of Egypt and the largest city in Africa. Located along the historic Nile River, it is famous for blending ancient history with a modern, fast-paced life, serving as the home of both the iconic Giza Pyramids and a vibrant, modern city filled with markets and mosques.</p>
+                <Button>Enquire Now</Button>
+                </div>
+            </div>
+            <div class="Travel-Destination">
+                <img src="https://i.postimg.cc/J0Vz2S00/sydney-opera-house.jpg" alt="Sydney">
+                <div class="product-description">
+                <h1>Sydney, Australia</h1>
+                <h1>$14,999</h1>
+                <p>Sydney is the capital of New South Wales and Australia's largest city, famous for the Sydney Opera House, the Sydney Harbour Bridge, and beautiful coastal beaches.</p>
+                <Button>Enquire Now</Button>
+                </div>
+            </div>
+            <div class="Travel-Destination">
+                <img src="https://i.postimg.cc/TP5GvQZ9/London.jpg" alt="London">
+                <div class="product-description">
+                <h1>London, England</h1>
+                <h1>$20,999</h1>
+                <p>London is the vibrant capital city of England and the United Kingdom, featuring world-famous landmarks like Big Ben, the Tower of London, and St. Paul's Cathedral.</p>
+                <Button>Enquire Now</Button>
+                </div>
+            </div>
+            <div class="Travel-Destination">
+                <img src="https://i.postimg.cc/52HDXypD/Dubai.jpg" alt="Dubai">
+                <div class="product-description">
+                <h1>Dubai, UAE</h1>
+                <h1>$9999</h1>
+                <p>Dubai is the most populous city in the United Arab Emirates, known for its ultramodern architecture, luxury shopping, and rapid transformation from a small trading port into a major global business hub.</p>
+                <Button>Enquire Now</Button>
+                </div>
+            </div>
+            <div class="Travel-Destination">
+                <img src="https://i.postimg.cc/43QPyTk6/New-York.jpg" alt="New York">
+                <div class="product-description">
+                <h1>New York, USA</h1>
+                <h1>$29,999</h1>
+                <p>New York City is the largest and most populous city in the United States, known as a global hub for finance, culture, and entertainment.</p>
+                <Button>Enquire Now</Button>
+                </div>
+            </div>
+            <div class="Travel-Destination">
+                <img src="https://i.postimg.cc/m29nYD0j/Rio-de-Janeiro.jpg" alt="Rio de Janeiro">
+                <div class="product-description">
+                <h1>Rio de Janeiro, Brazil</h1>
+                <h1>$34,999</h1>
+                <p>Rio de Janeiro is a famous coastal city in Brazil known for Christ the Redeemer, Copacabana Beach, and Sugarloaf Mountain.</p>
+                <Button>Enquire Now</Button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+    <div>
+        <div class="big_container">
+            <div class="contact">
+            <h1 class="footer_h1">Contact</h1>
+            <p class="footer_p">Phone Number:</p>
+            <p class="footer_p">04-1234567</p>
+            </div>
+            <hr>
+            <div class="email">
+            <h1 class="footer_h1">Email:</h1>
+            <p class="footer_p">joytravelagency@gmail.com</p>
+            </div>
+        </div>
+            <hr>
+            <div class="address">
+            <h1 class="footer_h1">Location</h1>
+            <p class="footer_p">2, Lebuh Acheh, George Town, 10300, Pulau Pinang.</p>
+            </div>
+            
+        <div class="copyright">
+            <p>©2026 Joy Travels. All rights reserved.</p>
+            <p>Website developed by JoTech.</p>
+        </div>
+    </footer>
+</body>
+</html>

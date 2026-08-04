@@ -1,0 +1,112 @@
+.Title{
+    text-align: center;
+    color: azure;
+    margin: 0%;
+    font-size: xx-large;
+}
+
+.Description{
+    text-align: center;
+    color: azure;
+    margin: 0%;
+    font-size: x-large;
+    padding: 5px;
+}
+
+.Header{
+    background-image: url(https://i.postimg.cc/pdFvFCDC/firebrick-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}
+
+html{
+    font-size: 15px;
+    margin: 0;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color:firebrick;
+    border: 5px solid maroon;
+}
+
+nav a{
+    color: beige;
+}
+
+.big_container{
+    width: 100%;
+    background-color: beige;
+    padding: 10px;
+
+}
+.contact{
+    background-color: beige;
+    margin: 0;
+    width: 100%;
+}
+
+.email{
+    background-color: beige;
+    margin: 0;
+    width: 100%;
+}
+
+.address{
+    background-color: beige;
+    margin: 0;
+    width: 100%;
+}
+
+.copyright{
+    background-color: maroon;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.Destination_Highlights{
+    margin: 0;
+}
+
+.highlights_bigtitle{
+    margin: 0;
+    background-color: firebrick;
+    color: bisque;
+    font-size: 35px;
+}
+
+.photo_container{
+    
+}
+
+
+.location{
+    margin: 0;
+}
+
+.line{
+    margin: 0;
+}
+
+.email_address{
+    margin: 0;
+}
+
+.address_details{
+    margin: 0;
+}
+
+.email_colon{
+    margin: 0;
+}
