@@ -32,6 +32,10 @@ body{
     margin: 0;
 }
 
+html{
+    margin: 0;
+}
+
 nav{
     display: flex;
     gap: 15px;
@@ -48,21 +52,6 @@ nav a{
 .big_container{
     margin: 0;
     width: 100%;
-    background-color: beige;
-}
-.contact{
-    background-color: beige;
-    margin: 0;
-}
-
-.email{
-    background-color: beige;
-    margin: 0;
-}
-
-.address{
-    background-color: beige;
-    margin: 0;
 }
 
 .copyright{
@@ -89,13 +78,17 @@ hr{
 
 }
 
+.International_Tours{
+    text-align: center;
+}
+
 .filter{
-    width: 250px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     padding: 20px 10px;
     color: white;
-    background-image: ;
+    align-items: center;
 }
 
 .main-content{
@@ -107,33 +100,66 @@ hr{
 }
 
 .product-description{
-    width: 250px;
+    width: 220px;
 }
 
 .Travel-Destination{
+    width: 100%;
     padding-bottom: 15px;
+    padding-top: 15px;
     display: flex;
+    gap: 12px;
 }
 
 img{
     border-radius: 16px;
-    width: 300px;
+    width: 250px;
     height: 250px;
     border: 2px solid darkred;
 }
 
-.button{
+.contact{
+    background-color: burlywood;
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.email{
+    background-color: burlywood;
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.address{
+    background-color: burlywood;
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.hero_image_international{
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/7YhDxXGk/Europe-Edinburgh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.hero_title{
+    font-size: 50px;
     color: white;
-    background-color: salmon;
+    z-index: 2;
+    text-align: center;
+    position: relative;
+    top: 150px;
 }
 
-.footer_h1{
-    color: black;
-}
-
-.footer_p{
-    color: black;
-}
     </style>
 </head>
 <body>
@@ -148,10 +174,12 @@ img{
         <a href="contact_us.html">Contact Us</a>
     </nav>
     </header>
-
+    <div class="hero_image_international">
+        <h1 class="hero_title">International Trips</h1>
+    </div>
     <div class="container">
         <div class="filter">
-            <h1 class="International Tours">International Tours</h1>
+            <h1 class="International_Tours">International Tours</h1>
             <h2>Region</h2>
             <div class="category">
             <input type="checkbox">Africa<br>
@@ -257,22 +285,18 @@ img{
     <div>
         <div class="big_container">
             <div class="contact">
-            <h1 class="footer_h1">Contact</h1>
-            <p class="footer_p">Phone Number:</p>
-            <p class="footer_p">04-1234567</p>
+            <h1>Contact</h1>
+            <p>Phone Number: <strong>04-1234567</strong></p>
             </div>
-            <hr>
             <div class="email">
-            <h1 class="footer_h1">Email:</h1>
-            <p class="footer_p">joytravelagency@gmail.com</p>
+            <h1>Email</h1>
+            <p>joytravelagency@gmail.com</p>
+            </div>
+            <div class="address">
+            <h1>Location</h1>
+            <p>2, Lebuh Acheh, George Town, 10300, Pulau Pinang.</p>
             </div>
         </div>
-            <hr>
-            <div class="address">
-            <h1 class="footer_h1">Location</h1>
-            <p class="footer_p">2, Lebuh Acheh, George Town, 10300, Pulau Pinang.</p>
-            </div>
-            
         <div class="copyright">
             <p>©2026 Joy Travels. All rights reserved.</p>
             <p>Website developed by JoTech.</p>
