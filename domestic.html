@@ -26,6 +26,9 @@
     background-size: cover;
 }
 
+html{
+    margin: 0;
+}
 body{
     margin: 0;
 }
@@ -49,18 +52,24 @@ nav a{
     background-color: beige;
 }
 .contact{
-    background-color: beige;
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    color: white;
 }
 
 .email{
-    background-color: beige;
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    color: white;
 }
 
 .address{
-    background-color: beige;
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    color: white;
 }
 
 .copyright{
@@ -68,7 +77,6 @@ nav a{
     color: white;
     width: 100%;
     margin: 0;
-    padding: 10px;
     text-align: center;
 }
 
@@ -79,7 +87,70 @@ h1, p{
 hr{
     margin: 0;
 }
+
+.hero_image{
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/RhRrMJ9W/KLCC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.malaysia_herotitle{
+    color: white;
+    font-size: 50px;
+    z-index: 2;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+img{
+    width: 250px;
+    height: 220px;
+    border-radius: 10px 10px 0 0;
+    display: block;
+}
+
+.Domestic_Tours{
+    padding: 20px 20px 20px 45px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.domestic_container{
+    width: 100%;
+    background-image: url(https://i.postimg.cc/SxzQ6m4z/360-F-338486227-q-Qit-Uvh3n-ILq-Yiu-QOUGxdfindo-NMbtp-H.jpg);
+}
+
+.photo_gallery_container{
+    max-width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.card{
+    width: 250px;
+    height: 500px;
+}
+
+.card-content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 16px 16px;
+    height: 230px;
+}
+
     </style>
+
 </head>
 <body>
     <header class="Header">
@@ -94,31 +165,87 @@ hr{
     </nav>
     </header>
 
-
+    <div class="hero_image">
+        <h1 class="malaysia_herotitle">Domestic Tours</h1>
+    </div>
+    <div class="domestic_container">
+        <h1 class="Domestic_Tours">Domestic Tours</h1>
+        <div class="photo_gallery_container">
+            <div class="card">
+                <img src="https://i.postimg.cc/g0DJrsdY/Sabah-Sipadan-Mabul-Island.jpg">
+            <div class="card-content">
+                <h1>Sabah</h1><br>
+                <p>Kota Kinabalu/Sandakan/Semporna</p>
+                <h2>RM2999</h2>
+                <button>Inquire Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="https://i.postimg.cc/rsT8qtR6/Penang.jpg">
+            <div class="card-content">
+                <h1>Penang</h1><br>
+                <p>George Town/Batu Ferringhi/Bayan Lepas</p>
+                <h2>RM999</h2>
+                <button>Inquire Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="https://i.postimg.cc/RhRrMJ9W/KLCC.jpg">
+            <div class="card-content">
+                <h1>Kuala Lumpur</h1><br>
+                <p>KL Tower/KLCC/Batu Caves</p>
+                <h2>RM1299</h2>
+                <button>Inquire Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="https://i.postimg.cc/2SCN3D58/Ipoh-tasik-cermin.jpg">
+            <div class="card-content">
+                <h1>Ipoh</h1><br>
+                <p>Mirror Lake/Concubine Lane/Kellie's Castle</p>
+                <h2>RM899</h2>
+                <button>Inquire Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="https://i.postimg.cc/fTj1Grvz/Genting-highlands.jpg">
+            <div class="card-content">
+                <h1>Genting Highlands</h1><br>
+                <p>SkyWorlds Theme Park/Skytropolis Indoor Theme Park/Awana SkyWay</p>
+                <h2>RM1199</h2>
+                <button>Inquire Now</button>
+            </div>
+            </div>
+            <div class="card">
+                <img src="https://i.postimg.cc/3NZ9cPQ4/Legoland.jpg">
+            <div class="card-content">
+                <h1>Johor</h1><br>
+                <p>Legoland/Desaru Coast/Kota Tinggi Waterfalls</p>
+                <h2>RM1099</h2>
+                <button>Inquire Now</button>
+            </div>
+            </div>
+        </div>
+    </div>
     <footer>
-    <div>
-        <div class="big_container">
+            <div class="big_container">
             <div class="contact">
             <h1>Contact</h1>
-            <p>Phone Number:</p>
-            <p>04-1234567</p>
+            <p>Phone Number: <strong>04-1234567</strong></p>
             </div>
-            <hr>
             <div class="email">
-            <h1>Email:</h1>
+            <h1>Email</h1>
             <p>joytravelagency@gmail.com</p>
             </div>
-        </div>
-            <hr>
+            </div>
             <div class="address">
-            <h1>Location:</h1>
+            <h1>Location</h1>
             <p>2, Lebuh Acheh, George Town, 10300, Pulau Pinang.</p>
             </div>
-            
-        <div class="copyright">
+            <div class="copyright">
             <p>©2026 Joy Travels. All rights reserved.</p>
             <p>Website developed by JoTech.</p>
-        </div>
+            </div>
     </footer>
 </body>
 </html>
