@@ -55,18 +55,24 @@ nav a{
 
 }
 .contact{
-    background-color: beige;
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    color: white;
 }
 
 .email{
-    background-color: beige;
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    color: white;
 }
 
 .address{
-    background-color: beige;
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    color: white;
 }
 
 .copyright{
@@ -74,7 +80,8 @@ nav a{
     color: white;
     width: 100%;
     margin: 0;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -89,16 +96,48 @@ hr{
 .Inquiry{
     width: 400px;
     border: 5px solid brown;
-    padding: 20px;
     text-align: center;
     margin: 15px auto;
     background-color: peru;
     color: black;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.checkbox{
+    position: relative;
+    top: 15px;
 }
 
 .checkbox_instruction{
-    color: maroon;
-    font-weight: bold;
+    color: beige;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    position: relative;
+    top: 22px;
+}
+
+.hero_image_contact_us{
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/Hs73FpfN/Contact-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.hero_title_contact_us{
+    font-size: 50px;
+    color: white;
+    z-index: 2;
+    display: inline-block;
+    position: relative;
+    left: 510px;
+    top: 150px;
 }
 
     </style>
@@ -115,7 +154,9 @@ hr{
         <a href="contact_us.html">Contact Us</a>
     </nav>
     </header>
-
+    <div class="hero_image_contact_us">
+        <h1 class="hero_title_contact_us">Contact Us</h1>
+    </div>
     <div class="Inquiry">
         <h1>Send us your inquiry</h1>
         <div>
@@ -142,7 +183,7 @@ hr{
         <h2>Message</h2>
         <input type="text" placeholder="Leave your message here">
         </div>
-        <input type="checkbox">
+        <input class="checkbox" type="checkbox">
         <p class="checkbox_instruction">Please tick to proceed</p>
     </div>
 
@@ -151,18 +192,15 @@ hr{
         <div class="big_container">
             <div class="contact">
             <h1>Contact</h1>
-            <p>Phone Number:</p>
-            <p>04-1234567</p>
+            <p>Phone Number: <strong>04-1234567</strong></p>
             </div>
-            <hr>
             <div class="email">
-            <h1>Email:</h1>
+            <h1>Email</h1>
             <p>joytravelagency@gmail.com</p>
             </div>
         </div>
-            <hr>
             <div class="address">
-            <h1>Location:</h1>
+            <h1>Location</h1>
             <p>2, Lebuh Acheh, George Town, 10300, Pulau Pinang.</p>
             </div>
             
