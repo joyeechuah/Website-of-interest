@@ -1,14 +1,14 @@
 .Title{
     text-align: center;
     color: azure;
-    margin: 0%;
+    margin: 0;
     font-size: xx-large;
 }
 
 .Description{
     text-align: center;
     color: azure;
-    margin: 0%;
+    margin: 0;
     font-size: x-large;
     padding: 5px;
 }
@@ -17,16 +17,7 @@
     background-image: url(https://i.postimg.cc/pdFvFCDC/firebrick-photo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-body{
     margin: 0;
-}
-
-html{
-    font-size: 15px;
-    margin: 0;
-    width: 100%;
 }
 
 nav{
@@ -44,26 +35,9 @@ nav a{
 
 .big_container{
     width: 100%;
-    background-color: beige;
-    padding: 10px;
-
-}
-.contact{
-    background-color: beige;
+    background-color: burlywood;
     margin: 0;
-    width: 100%;
-}
-
-.email{
-    background-color: beige;
-    margin: 0;
-    width: 100%;
-}
-
-.address{
-    background-color: beige;
-    margin: 0;
-    width: 100%;
+    padding: 10px 0 10px 0;
 }
 
 .copyright{
@@ -71,7 +45,6 @@ nav a{
     color: white;
     width: 100%;
     margin: 0;
-    padding: 10px;
     text-align: center;
 }
 
@@ -86,27 +59,84 @@ nav a{
     font-size: 35px;
 }
 
-.photo_container{
-    
+.grid_container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+
 }
 
+.card-content{
+    width: 300px;
+    height: 300px;
+    border: 2px solid firebrick;
+    background-color: maroon;
+}
 
-.location{
+h2{
+    color: azure;
+    text-align: center;
+}
+
+h1, p{
+    margin: 0;
+    color: white;
+}
+
+body{
     margin: 0;
 }
 
-.line{
+html{
     margin: 0;
 }
 
-.email_address{
+.contact{
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    color: black;
 }
 
-.address_details{
+.email{
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    color: black;
 }
 
-.email_colon{
+.address{
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.copyright{
+    background-color: maroon;
+    color: white;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.hero_image_home{
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/QNqfmSKS/attractions-on-a-plane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.hero_title_home{
+    font-size: 50px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    position: relative;
+    top: 150px;
 }
