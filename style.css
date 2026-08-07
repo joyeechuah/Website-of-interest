@@ -35,9 +35,59 @@ nav a{
 
 .big_container{
     width: 100%;
-    background-color: burlywood;
+    height: 400px;
+    background-image: url(https://i.postimg.cc/SxzQ6m4z/360-F-338486227-q-Qit-Uvh3n-ILq-Yiu-QOUGxdfindo-NMbtp-H.jpg);
     margin: 0;
-    padding: 10px 0 10px 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.contact{
+    position: relative;
+    top: 25px;
+}
+
+.contact h1{
+    color:palegoldenrod;
+    font-size: 38px;
+}
+
+.contact p{
+    display: inline-block;
+    color: yellow;
+    text-decoration: underline;
+    font-size: 21px;
+}
+
+.contact p:hover{
+    background-color: orangered;
+}
+
+.contact_details{
+    border: 5px solid black;
+    margin: 50px 150px;
+    padding: 20px;
+    background-image: url(https://i.postimg.cc/rwYKX2Ww/pastel.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 3;
+}
+
+.contact_details h1{
+    color: black;
+    padding: 10px 5px;
+    font-size: 26px;
+}
+
+button{
+    width: 70%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 16px 16px;
+}
+
+button:hover{
+    background-color: lightcoral;
 }
 
 .copyright{
@@ -46,6 +96,8 @@ nav a{
     width: 100%;
     margin: 0;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 18px;
 }
 
 .Destination_Highlights{
@@ -63,6 +115,7 @@ nav a{
     display: flex;
     justify-content: space-evenly;
     gap: 16px;
+    background-image: url(https://i.postimg.cc/SxzQ6m4z/360-F-338486227-q-Qit-Uvh3n-ILq-Yiu-QOUGxdfindo-NMbtp-H.jpg);
 
 }
 
@@ -89,35 +142,6 @@ body{
 
 html{
     margin: 0;
-}
-
-.contact{
-    background-color: burlywood;
-    margin: 0;
-    text-align: center;
-    color: black;
-}
-
-.email{
-    background-color: burlywood;
-    margin: 0;
-    text-align: center;
-    color: black;
-}
-
-.address{
-    background-color: burlywood;
-    margin: 0;
-    text-align: center;
-    color: black;
-}
-
-.copyright{
-    background-color: maroon;
-    color: white;
-    width: 100%;
-    margin: 0;
-    text-align: center;
 }
 
 .hero_image_home{
