@@ -51,29 +51,60 @@ nav a{
 }
 
 .big_container{
-    margin: 0;
     width: 100%;
-    background-color: beige;
+    height: 400px;
+    background-image: url(https://i.postimg.cc/SxzQ6m4z/360-F-338486227-q-Qit-Uvh3n-ILq-Yiu-QOUGxdfindo-NMbtp-H.jpg);
+    margin: 0;
+    text-align: center;
+    z-index: 1;
 }
+
 .contact{
-    background-color: burlywood;
-    margin: 0;
-    text-align: center;
-    color: white;
+    position: relative;
+    top: 25px;
 }
 
-.email{
-    background-color: burlywood;
-    margin: 0;
-    text-align: center;
-    color: white;
+.contact h1{
+    color:palegoldenrod;
+    font-size: 38px;
 }
 
-.address{
-    background-color: burlywood;
-    margin: 0;
-    text-align: center;
-    color: white;
+.contact p{
+    display: inline-block;
+    color: yellow;
+    text-decoration: underline;
+    font-size: 21px;
+}
+
+.contact p:hover{
+    background-color: orangered;
+}
+
+.contact_details{
+    border: 5px solid black;
+    margin: 50px 150px;
+    padding: 20px;
+    background-image: url(https://i.postimg.cc/rwYKX2Ww/pastel.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 3;
+}
+
+.contact_details h1{
+    color: black;
+    padding: 10px 5px;
+    font-size: 26px;
+}
+
+button{
+    width: 70%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 16px 16px;
+}
+
+button:hover{
+    background-color: lightcoral;
 }
 
 .copyright{
@@ -81,9 +112,9 @@ nav a{
     color: white;
     width: 100%;
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 18px;
 }
 
 h1{
@@ -126,19 +157,6 @@ p{
 .Why_Choose_Us{
     padding-bottom: 25px;
 }
-
-.email h1{
-    padding: 0;
-}
-
-.address h1{
-    padding: 0;
-}
-
-.contact h1{
-    padding: 0;
-}
-
     </style>
 </head>
 <body>
@@ -182,23 +200,22 @@ p{
         </div>
     </div>
     <footer>
-            <div class="big_container">
+           <div class="big_container">
             <div class="contact">
-            <h1>Contact</h1>
-            <p>Phone Number: <strong>04-1234567</strong></p>
+            <h1>Contact Us</h1>
+            <p>Limited slots! Contact us now!</p>
             </div>
-            <div class="email">
-            <h1>Email</h1>
-            <p>joytravelagency@gmail.com</p>
+            <div class="contact_details">
+            <h1>Phone Number: 04-1234567</h1>
+            <h1>Email: joytravelagency@gmail.com</h1>
+            <h1>Location: 2, Lebuh Acheh, George Town, 10300, Pulau Pinang.</h1>
+            <button>Contact Us</button>
             </div>
-            <div class="address">
-            <h1>Location</h1>
-            <p>2, Lebuh Acheh, George Town, 10300, Pulau Pinang.</p>
-            </div>
-            <div class="copyright">
+        </div>
+        <div class="copyright">
             <p>©2026 Joy Travels. All rights reserved.</p>
             <p>Website developed by JoTech.</p>
-            </div>
+        </div>
     </footer>
 </body>
 </html>
