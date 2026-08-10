@@ -161,10 +161,79 @@ h1, p{
     font-size: 50px;
     color: white;
     z-index: 2;
-    display: inline-block;
     position: relative;
-    left: 510px;
+    text-align: center;
     top: 150px;
+}
+
+@media screen and (max-width: 768px){
+    *{
+        box-sizing: border-box;
+    }
+
+    nav{
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 10px;
+    }
+
+    nav a{
+        width: 40%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .Description{
+        font-size: 18px;
+        padding: 5px 15px 12px;
+    }
+
+    .hero_image_contact_us{
+        height: 300px;
+        background-attachment: scroll;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero_title_contact_us{
+        position: static;
+        font-size: 38px;
+    }
+
+    .Inquiry{
+        width: 90%;
+        padding: 10px 20px 40px;
+    }
+
+    .Inquiry input[type="text"]{
+        width: 100%;
+        padding: 8px;
+    }
+
+    .big_container{
+        height: auto;
+        padding: 25px 15px;
+    }
+
+    .contact{
+        position: static;
+    }
+
+    .contact_details{
+        width: 100%;
+        margin: 25px auto 0;
+        padding: 15px;
+    }
+
+    .contact_details h1{
+        font-size: 18px;
+        overflow-wrap: break-word;
+    }
+
+    button{
+        width: 100%;
+    }
 }
 
     </style>
